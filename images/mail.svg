@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.862" height="22.927" viewBox="0 0 30.862 22.927">
+  <g id="Groupe_82" data-name="Groupe 82" transform="translate(-490.502 -540.909)">
+    <g id="Groupe_81" data-name="Groupe 81" transform="translate(490.502 540.909)">
+      <g id="Groupe_75" data-name="Groupe 75">
+        <g id="Groupe_73" data-name="Groupe 73" transform="translate(0.253 0.254)">
+          <path id="Tracé_55" data-name="Tracé 55" d="M492.94,541.56h26.782a1.793,1.793,0,0,1,1.785,1.793v18.836a1.792,1.792,0,0,1-1.785,1.79H492.94a1.8,1.8,0,0,1-1.788-1.79V543.353A1.8,1.8,0,0,1,492.94,541.56Z" transform="translate(-491.152 -541.56)" fill="#faca44"/>
+        </g>
+        <g id="Groupe_74" data-name="Groupe 74">
+          <path id="Tracé_56" data-name="Tracé 56" d="M519.325,563.836H492.544a2.045,2.045,0,0,1-2.042-2.043V542.956a2.047,2.047,0,0,1,2.042-2.047h26.782a2.045,2.045,0,0,1,2.039,2.047v18.836A2.043,2.043,0,0,1,519.325,563.836Zm-26.782-22.419a1.539,1.539,0,0,0-1.534,1.54v18.836a1.537,1.537,0,0,0,1.534,1.536h26.782a1.535,1.535,0,0,0,1.532-1.536V542.956a1.537,1.537,0,0,0-1.532-1.54Z" transform="translate(-490.502 -540.909)"/>
+        </g>
+      </g>
+      <g id="Groupe_78" data-name="Groupe 78" transform="translate(0.588 0.47)">
+        <g id="Groupe_76" data-name="Groupe 76" transform="translate(0.253 0.254)">
+          <path id="Tracé_57" data-name="Tracé 57" d="M492.66,542.766l14.591,13.513,14.666-13.438" transform="translate(-492.66 -542.766)" fill="#faca44"/>
+        </g>
+        <g id="Groupe_77" data-name="Groupe 77">
+          <path id="Tracé_58" data-name="Tracé 58" d="M506.855,556.136a.252.252,0,0,1-.172-.068l-14.591-13.513a.253.253,0,1,1,.344-.372l14.42,13.355,14.494-13.28a.254.254,0,0,1,.343.374l-14.666,13.437A.253.253,0,0,1,506.855,556.136Z" transform="translate(-492.01 -542.115)"/>
+        </g>
+      </g>
+      <g id="Groupe_79" data-name="Groupe 79" transform="translate(0.481 11.826)">
+        <path id="Tracé_59" data-name="Tracé 59" d="M491.99,581.766a.254.254,0,0,1-.16-.45L504.2,571.295a.254.254,0,0,1,.319.394l-12.368,10.021A.251.251,0,0,1,491.99,581.766Z" transform="translate(-491.736 -571.238)"/>
+      </g>
+      <g id="Groupe_80" data-name="Groupe 80" transform="translate(17.532 11.826)">
+        <path id="Tracé_60" data-name="Tracé 60" d="M548.086,581.766a.25.25,0,0,1-.159-.057l-12.368-10.021a.253.253,0,1,1,.319-.394l12.368,10.021a.253.253,0,0,1-.159.45Z" transform="translate(-535.464 -571.238)"/>
+      </g>
+    </g>
+  </g>
+</svg>

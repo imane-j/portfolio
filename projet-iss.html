@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Où se trouve la station spatiale internationale?</title>
+</head>
+<body>
+
+
+    <main id="projet-iss">
+        <header>
+            <div id="navigation" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/icone-fermeture-menu.svg" alt="Icone pour fermer le menu"></a>
+                <div class="overlay-content">
+                    <a href="projets.html" class="actif"><img src="images/projets-pot.svg" alt="Icône d'une boîte à outils"><span>Projets</span></a>
+                    <a href="about.html"><img src="images/about-me.svg" alt="Icône représentant un oeil"><span>About Me</span></a>
+                    <a href="contact.html"><img src="images/mail.svg" alt="Icône représentant une enveloppe"><span>Contact</span></a>
+                </div>
+            </div>
+            <img onclick="openNav()" class="closebtn" src="images/burger.svg" alt="Icone de navigation mobile">
+        </header>
+
+        <!-- Section hero -->
+        <section class="iss-hero">
+            <img src="images/iss-banner.jpg" alt="Image d'une carte géographique du monde">
+            <h1>ISS</h1>
+        </section>
+
+        <div class="container">
+            <!-- Le projet en bref -->
+            <section class="description-projet">
+                <div class="description-projet__contenu">
+                    <p><span>Type de projet :</span> Carte d'information</p>
+                    <p><span>Objectif :</span> Représenter des données dynamiques sur une<br> carte en utilisant une API</p>
+                    <p><span>Outils utilisés :</span> Javascript (ES6 avec les promesses),<br> Leaflet.js, Mapbox pour les tiles, API "Where the ISS at"</p>
+                </div>
+                <div class="boutons">
+                    <a href="#" class="btn-blanc"><div class="btn-lien remplissage"><img src="images/lien.svg" alt="Icone lien">Lien vers le site</div></a>
+                </div>
+            </section>
+            <!-- Description du projet -->
+            <div class="projet-description-iss row">
+                <div class="col-md-6">
+                    <h2>Le projet</h2>
+                    <p>Pendant l'été j'ai décidé d'apprendre toutes les nouvelles particularités de la version <span>ES6</span> de Javascript. Dans le cadre de cet apprentissage j'ai réalisé une carte capable de montrer la position exacte de la station spatiale internationale grâce à l'API <span>"Where the ISS at?".</span></p>
+                </div>
+                <div class="space col-md-6">
+                    <h2>Stack technique</h2>
+                    <p>La connexion et récupération des données à été réalisé en utilisant les <span>promesses,</span> une nouvelle fonctionnalité de ES6 qui facilite la communication avec les API. Pour ce qui concerne la carte elle a été réalisé avec la librairie <span>Leaflet.js.</span> Pour la personnalisation graphique j'ai utilisé l'API de <span>Mapbox.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="projet-iss-image">
+                <img src="images/iss-code.jpg" alt="Screenshot d'une partie du code utilisé pour créer l'application">
+                
+            </div>
+            
+
+
+
+        </div>
+
+    </main>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js"></script>
+    <script src="js/scripts.js"></script>    
+</body>
+</html>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.958" height="28.843" viewBox="0 0 31.958 28.843">
+  <g id="Groupe_138" data-name="Groupe 138" transform="translate(-486.502 -144.59)">
+    <g id="Groupe_137" data-name="Groupe 137" transform="translate(486.502 144.59)">
+      <g id="Groupe_133" data-name="Groupe 133" transform="translate(0)">
+        <g id="Groupe_131" data-name="Groupe 131" transform="translate(0.263 0.263)">
+          <path id="Tracé_128" data-name="Tracé 128" d="M491.152,145.24h31.433v22.416H506.83l-5.111,2.949-5.105,2.953v-5.9h-5.461Z" transform="translate(-491.152 -145.24)" fill="#faca44"/>
+        </g>
+        <g id="Groupe_132" data-name="Groupe 132">
+          <path id="Tracé_129" data-name="Tracé 129" d="M496.226,173.433a.262.262,0,0,1-.263-.262v-5.639h-5.2a.262.262,0,0,1-.262-.262V144.852a.262.262,0,0,1,.262-.262H522.2a.262.262,0,0,1,.263.262v22.416a.263.263,0,0,1-.263.262H506.512L496.357,173.4A.263.263,0,0,1,496.226,173.433Zm-5.2-6.427h5.2a.262.262,0,0,1,.262.262v5.447l9.822-5.674a.263.263,0,0,1,.131-.035h15.493V145.115H491.027Z" transform="translate(-490.502 -144.59)"/>
+        </g>
+      </g>
+      <g id="Groupe_134" data-name="Groupe 134" transform="translate(6.447 4.92)">
+        <path id="Tracé_130" data-name="Tracé 130" d="M525.674,157.3H506.731a.262.262,0,1,1,0-.525h18.944a.262.262,0,0,1,0,.525Z" transform="translate(-506.468 -156.775)"/>
+      </g>
+      <g id="Groupe_135" data-name="Groupe 135" transform="translate(6.447 11.047)">
+        <path id="Tracé_131" data-name="Tracé 131" d="M522.531,172.474h-15.8a.262.262,0,1,1,0-.524h15.8a.262.262,0,1,1,0,.524Z" transform="translate(-506.468 -171.949)"/>
+      </g>
+      <g id="Groupe_136" data-name="Groupe 136" transform="translate(6.447 17.174)">
+        <path id="Tracé_132" data-name="Tracé 132" d="M519.91,187.648h-13.18a.262.262,0,1,1,0-.525h13.18a.262.262,0,1,1,0,.525Z" transform="translate(-506.468 -187.123)"/>
+      </g>
+    </g>
+  </g>
+</svg>

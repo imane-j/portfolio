@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Les RDV design</title>
+</head>
+<body>
+    
+    <main id="projet-rdv">
+        <header>
+            <div id="navigation" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/icone-fermeture-menu.svg" alt="Icone pour fermer le menu"></a>
+                <div class="overlay-content">
+                    <a href="projets.html" class="actif"><img src="images/projets-pot.svg" alt="Icône d'une boîte à outils"><span>Projets</span></a>
+                    <a href="about.html"><img src="images/about-me.svg" alt="Icône représentant un oeil"><span>About Me</span></a>
+                    <a href="contact.html"><img src="images/mail.svg" alt="Icône représentant une enveloppe"><span>Contact</span></a>
+                </div>
+            </div>
+            <img onclick="openNav()" class="closebtn" src="images/burger.svg" alt="Icone de navigation mobile">
+        </header>
+
+        <!-- Section hero -->
+        <section class="rdv-hero">
+            <img src="images/banner-rdv.jpg" alt="Image abstraite avec le titre du projet">
+        </section>
+        <!-- Le projet en bref -->
+        <div class="container">
+            <section class="description-projet">
+                <div class="description-projet__contenu">
+                    <p><span>Type de projet :</span> UX Application mobile</p>
+                    <p><span>Objectif :</span> Concevoir les interfaces graphiques pour une<br> application mobile et son affiche publicitaire</p>
+                    <p><span>Outils utilisés :</span> Photoshop, Adobe XD</p>
+                </div>
+                <div class="boutons">
+                    <a href="#" class="btn-blanc"><div class="btn-lien remplissage"><img src="images/lien.svg" alt="Icone lien">Lien vers le prototype</div></a>
+                </div>
+            </section>
+        
+
+         <!-- Description du projet -->
+         <div class="projet-description-rdv row">
+                <div class="projet-description__contenu col-md-6">
+                    <h2>Le client</h2>
+                    <p>Les rendez-vous design sont un ensemble de conférences, expositions et débats sur le thème du design, organisé par la cité de la mode et du design à Paris. Ces conférences ont plusieurs sujet comme l'architecture, les arts plastiques, la haute couture ou encore le design print. Les événements sont étalés sur 3 jours pendant lesquels des artistes internationaux présentent leurs œuvres au public.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>La mission</h2>
+                    <p>Dans le cadre d’un projet UX, notre professeur nous à demandé de créer une affiche pour les RDV design, accompagné par une application mobile sur Android ou IOS. L’application doit être interactive et permettre au client de consulter avec rapidité la programmation des événements, le lieu et l’accès en transports en commun, et donner la possibilité d’ajouter certains événements aux favoris. On doit également permettre à l’équipe de la cité de la mode et du design de publier des articles pour mettre en avant certains artistes ou expositions.
+                    </p>
+                </div>
+            </div>
+            <div class="projet-galerie row">
+               
+                    <div class="col-md-6">
+                        <img src="images/rdv_maquette1.jpg" alt="Un mockup d'un téléphone avec l'application des RDV design">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/rdv_maquette2.jpg" alt="Un mockup d'un téléphone avec l'application des RDV design">
+                    </div>
+             
+              
+                    <div class="space col-md-6">
+                        <img src="images/rdv_affiche.jpg" alt="Affiche des RDV design">
+                    </div>
+                    <div class="space col-md-6">
+                        <img src="images/rdv_affiche_bus.jpg" alt="Affiche des RDV design à un arrêt du bus">
+                    </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

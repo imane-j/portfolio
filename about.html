@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Qui je suis?</title>
+</head>
+<body id="about">
+    <main>
+        <header>
+            <div id="navigation" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/icone-fermeture-menu.svg" alt="Icone pour fermer le menu"></a>
+                <div class="overlay-content">
+                    <a href="projets.html" class="actif"><img src="images/projets-pot.svg" alt="Icône d'une boîte à outils"><span>Projets</span></a>
+                    <a href="about.html"><img src="images/about-me.svg" alt="Icône représentant un oeil"><span>About Me</span></a>
+                    <a href="contact.html"><img src="images/mail.svg" alt="Icône représentant une enveloppe"><span>Contact</span></a>
+                </div>
+            </div>
+            <img onclick="openNav()" class="closebtn" src="images/burger.svg" alt="Icone de navigation mobile">
+        </header>
+
+        <!-- Section principale -->
+        <section class="about-me container">
+            <div class="row">
+                <div class="col-md-7">
+                        <div id="aboutImageWrapper">
+                                <div class="card card-about">
+                                  <div class="image aboutMe">
+                                    <div class="screen"></div>
+                                    <div class="text">
+                                        <p>Imane Jarmouni</p>
+                                        <span>Développeuse front</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                 
+                        </div>
+                </div>
+                <div class="about-contenu col-md-5">
+                    <h1>Plus sur moi</h1>
+                    <p>Je m'appelle Imane Jarmouni et j'ai 24 ans. Je suis tout juste diplômée de la <span>licence professionnelle</span> métiers du numérique à l'IUT du Puy-en-Velay. Je suis passionnée de développement web et de design d'interfaces. Ce qui m'attire à ce secteur professionnel c'est <span>l'apprentissage continu</span> de nouvelles technologies, plus stables, plus efficaces, ce qui permet d'avoir des sites ou des applications web encore plus performants.
+                        
+                    Aujourd'hui je suis à la <span>recherche d'une entreprise</span> où je pourrais utiliser mes compétences en développement web pour créer des sites ou des applications web. </p>
+
+                    <div class="boutons">
+                        <a href="#" class="btn-blanc"><div class="btn-telechargement remplissage"><img src="images/paperclip.svg" alt="Icone trombone">Téléchagez mon CV</div></a>  
+                    </div>
+               
+                </div>
+            </div>
+
+            <!--Description compétences -->
+            <div class="about-competences row">
+                <div class="about-competences__col1 col-md-6">
+                    <h2>Compétences</h2>
+                    <p>Je suis capable de <span>intégrer</span> des sites web dynamiques en html, css, javascript et php. Pendant mon stage en agence web, j'ai eu également la possibilité de créer des nombreux sites sur <span>Wordpress</span> pour des PME et quelque plateforme <span>e-commerce</span> sur le CMS français Prestashop.
+                    Pendant l'été je me suis formé à l'utilisation du framework <span>React,</span> à la création de composants et à la gestion du state avec le <span>context API</span>.
+        
+                    A coté du développement je réalise une <span>vieille continue</span> sur les derniers tendances en design, ce qui me permet d'avoir une bonne compréhension de comment <span>structurer visuellement</span> un site web ou une application.
+                    </p>
+                </div>
+                
+                <div class="about-competences__col2 col-md-6">
+                    <h2>Loisirs et langues</h2>
+                    <p>Je ne pratique pas des sports (meme si ça fait 15 ans que je continue à dire que je vais m'inscrire à un cours d'arts martiaux!). Je suis passionné par la <span>lectur</span>e et les films. De temps en temps j'aime me balader avec ma caméra et faire des <span>photos</span> en ville. </p>
+                    <p>Couramment je parle plusieurs langues comme <span>l'italien</span> (ma langue maternelle), <span>l'anglais</span> à un très bon niveau et bien sur le français! </p>
+                </div>
+                
+
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>
