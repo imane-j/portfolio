@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>GPGR</title>
+</head>
+<body id="gpgr">
+    
+    <main>
+        <header>
+            <div id="navigation" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/icone-fermeture-menu.svg" alt="Icone pour fermer le menu"></a>
+                <div class="overlay-content">
+                    <a href="projets.html" class="actif"><img src="images/projets-pot.svg" alt="Icône d'une boîte à outils"><span>Projets</span></a>
+                    <a href="about.html"><img src="images/about-me.svg" alt="Icône représentant un oeil"><span>About Me</span></a>
+                    <a href="contact.html"><img src="images/mail.svg" alt="Icône représentant une enveloppe"><span>Contact</span></a>
+                </div>
+            </div>
+            <img onclick="openNav()" class="closebtn" src="images/burger.svg" alt="Icone de navigation mobile">
+        </header>
+        <!-- Section hero -->
+        <section class="rdv-hero">
+            <img src="images/banner-gpgr.jpg" alt="Image abstraite avec le titre du projet">
+        </section>
+        <!-- Le projet en bref -->
+        <div class="container">
+            <section class="description-projet">
+                <div class="description-projet__contenu">
+                    <p><span>Type de projet :</span> Réalisation d'un site sur Wordpress</p>
+                    <p><span>Objectif :</span> Créer des maquettes pour ensuite les intégrer sur Wordpress</p>
+                    <p><span>Outils utilisés :</span> Photoshop, Adobe XD, HTML, CSS, JQuery, Wordpress</p>
+                </div>
+                <div class="boutons">
+                    <a href="https://www.geleeroyale-gpgr.fr/" class="btn-blanc"><div class="btn-lien remplissage"><img src="images/lien.svg" alt="Icone lien">Lien vers le site</div></a>
+                </div>
+            </section>
+
+            <!-- Description du projet -->
+            <div class="projet-description-rdv row">
+                <div class="projet-description__contenu col-md-6">
+                    <h2>Le client</h2>
+                    <p>Le groupement des producteus de la gélée royale a demandé à l'agence web Ekypia de réaliser un site à destination des professionnels de la gélée royale. </p>
+                </div>
+                <div class="col-md-6">
+                    <h2>La mission</h2>
+                    <p>Ma tutrice de stage m'a assigné la mission: tout d'abord j'étais en charge d'intégrer les maquettes de mes collègues sur Wordpress. Une fois terminé cette partie j'ai maquetté rapidement les pages restant et je les ai intégrés. La dernière partie de ma mission consistait dans la création d'un espace extranet pour permettre aux producteurs de la gélée royale de télécharger des documents rélatifs à leur métier.
+                    </p>
+                </div>
+            </div>
+            <div class="projet-galerie row">
+            
+                    <div class="col-md-6">
+                        <img src="images/gpgr-mockup1.jpg" alt="Un mockup d'un ipad avec le site de GPGR">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/gpgr-mockup2.jpg" alt="Un mockup d'un ipad avec le site de GPGR">
+                    </div>
+                
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

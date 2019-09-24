@@ -1109,6 +1109,12 @@ Jaune: #FFCF03;
 .image.fourth{
     background-image: url(../images/projets-slide4.jpg);
 }
+.image.fifth{
+    background-image: url(../images/projets-slide5.jpg);
+}
+.image.sixth{
+    background-image: url(../images/projets-slide6.jpg);
+}
 .screen{
     background-color: rgba(58, 58, 58, 0.253);
     width: 100%;
@@ -1194,3 +1200,33 @@ Jaune: #FFCF03;
     padding: 15px 10px; 
 }
 
+/****** PAGE PROJET BELLA DANCE STUDIO *********/
+
+#bella header {
+    background-color: #C12419;
+}
+#bella p {
+    font-family: "Noir-light";
+}
+#bella .boutons {
+    justify-content: center;
+    margin-top: 30px;
+}
+#bella .boutons div {
+    padding: 15px 10px; 
+}
+
+/****** PAGE PROJET GPGR *********/
+#gpgr header {
+    background-color: #447c42;
+}
+#gpgr p {
+    font-family: "Noir-light";
+}
+#gpgr .boutons {
+    justify-content: center;
+    margin-top: 30px;
+}
+#gpgr .boutons div {
+    padding: 15px 10px; 
+}
